@@ -14,6 +14,7 @@ export default defineConfig(
       },
       rules: {
         'vue/script-indent': ['error', 2, { baseIndent: 0 }],
+        'vue/attributes-order': 'off',
         '@stylistic/no-mixed-operators': 'warn',
         '@stylistic/quote-props': 'off',
         '@perfectionist/sort-imports': 'off',
